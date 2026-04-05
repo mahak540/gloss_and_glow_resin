@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium handmade resin products - View details, sizes, prices & add to cart">
+  <meta name="keywords" content="resin art, handmade resin, premium quality, custom orders">
+  <meta name="author" content="Gloss & Glow Resin Art">
+  
+  <title>Product Details - Gloss & Glow Resin Art</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <div class="header-content">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.jpeg" alt="Gloss & Glow Resin Art Logo" class="logo-img">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="custom-orders.html">Custom Orders</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="javascript:void(0)" class="whatsapp-float" onclick="openWhatsAppCustom('general')" title="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.782 1.176c-1.592.887-2.848 2.217-3.448 3.719-.643 1.671-.595 3.449.068 5.122.667 1.673 1.995 3.1 3.718 3.924 1.672.748 3.97.922 6.203.471 2.555-.51 4.659-2.312 5.204-4.842.312-1.47.226-3.004-.274-4.267-.5-1.262-1.386-2.322-2.653-2.972-1.267-.65-3.093-.92-4.842-.331zm0 0"/>
+    </svg>
+    <div class="whatsapp-tooltip">Chat with us!</div>
+  </a>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- BREADCRUMB -->
+    <section class="section section-light" style="padding: var(--spacing-lg) 0 0;">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-separator">/</span>
+          <a href="products.html">Products</a>
+          <span class="breadcrumb-separator">/</span>
+          <span id="breadcrumb-product">Product</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT DETAILS SECTION -->
+    <section class="section section-light" id="product-detail">
+      <div class="container">
+        <div class="grid grid-2" style="align-items: start;">
+          <!-- PRODUCT IMAGE -->
+          <div class="animate-on-scroll">
+            <div class="product-image-wrapper" style="height: 500px; position: relative; cursor: zoom-in;" id="product-image-container">
+              <img id="product-image-main" src="assets/images/frame.jpg" alt="Product Image" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <p style="margin-top: var(--spacing-md); color: #999; font-size: 0.9rem;">💡 Hover over image to zoom</p>
+          </div>
+
+          <!-- PRODUCT INFO -->
+          <div class="animate-on-scroll">
+            <span class="product-category" id="product-category">Photo Frames</span>
+            <h1 id="product-name" style="margin-bottom: var(--spacing-sm);">Product Name</h1>
+            
+            <div class="product-price" id="product-price" style="margin-bottom: var(--spacing-lg);">₹350</div>
+            
+            <p id="product-description" class="card-description" style="margin-bottom: var(--spacing-lg);">
+              Product description goes here
+            </p>
+
+            
+
+            <!-- ACTION BUTTONS -->
+            <div class="grid grid-2" style="gap: var(--spacing-sm); margin-bottom: var(--spacing-lg);">
+              <button class="btn btn-secondary btn-lg" id="whatsapp-btn" style="padding: var(--spacing-md);">WhatsApp Order</button>
+            </div>
+
+            <!-- PRODUCT DETAILS -->
+            <div style="background: #f9f9f9; padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-lg);">
+              <h3 style="margin-bottom: var(--spacing-md); color: var(--primary-color);">Product Details</h3>
+              <p id="product-details">Detailed product information will be displayed here.</p>
+              
+              <div style="margin-top: var(--spacing-lg); border-top: 1px solid #ddd; padding-top: var(--spacing-lg);">
+                <h4 style="margin-bottom: var(--spacing-sm); color: var(--secondary-color);">✨ Key Features</h4>
+                <ul style="list-style: none; padding-left: 0;">
+                  <li style="margin-bottom: var(--spacing-xs);">✓ Handmade with premium resin</li>
+                  <li style="margin-bottom: var(--spacing-xs);">✓ Unique and durable</li>
+                  <li style="margin-bottom: var(--spacing-xs);">✓ Carefully packaged for safe delivery</li>
+                  <li style="margin-bottom: var(--spacing-xs);">✓ Perfect gift for loved ones</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RELATED PRODUCTS SECTION -->
+    <section class="section section-light">
+      <div class="container">
+        <h2 class="text-center mb-4">You Might Also Like</h2>
+        <div class="products-container" id="related-products" style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));">
+          <!-- Related products will be rendered here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section section-dark">
+      <div class="container text-center">
+        <h2 class="text-light mb-3">Custom Resin Products?</h2>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto 2rem;">
+          Need something special? Our craftsmen can create custom resin art tailored to your vision.
+        </p>
+        <button class="btn btn-primary btn-lg" onclick="openWhatsAppCustom('general')">Contact Us on WhatsApp</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Us</h4>
+        <p style="font-size: 0.9rem;">Gloss & Glow Resin Art creates handmade resin products with premium quality and meticulous craftsmanship.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="custom-orders.html">Custom Orders</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#">Resin Photo Frames</a></li>
+          <li><a href="#">Resin Keyrings</a></li>
+          <li><a href="#">Wall Clocks</a></li>
+          <li><a href="custom-orders.html">Preservation Services</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="javascript:void(0)" onclick="openWhatsAppCustom('general')">💬 WhatsApp</a></li>
+          <li><a href="mailto:glossandglowresin@gmail.com">📧 Email</a></li>
+          <li><a href="https://www.instagram.com/glossandglowresin7" target="_blank">📷Instagram</a></li>
+          <li>📍 India</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Gloss & Glow Resin Art. All rights reserved. | Handcrafted with ❤️ in India</p>
+    </div>
+  </footer>
+  <!-- SCRIPTS -->
+  <script src="js/products.js"></script>
+  <script src="js/utils.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const productId = getUrlParameter('id');
+      const product = getProductById(productId);
+
+      if (!product) {
+        document.getElementById('product-detail').innerHTML = '<div class="container"><p>Product not found. <a href="products.html">Back to Products →</a></p></div>';
+        return;
+      }
+
+      // Populate product details
+      document.getElementById('breadcrumb-product').textContent = product.name;
+      document.getElementById('product-name').textContent = product.name;
+      document.getElementById('product-category').textContent = categories[product.category] || product.category;
+      document.getElementById('product-price').textContent = formatPrice(product.price);
+      document.getElementById('product-description').textContent = product.description;
+      document.getElementById('product-details').textContent = product.details;
+      document.getElementById('product-image-main').src = `assets/images/${product.image}`;
+      document.getElementById('product-image-main').alt = product.name;
+
+      // Populate size select
+      const sizeSelect = document.getElementById('size-select');
+      product.sizes.forEach(size => {
+        const option = document.createElement('option');
+        option.value = size;
+        option.textContent = size;
+        sizeSelect.appendChild(option);
+      });
+
+      // Set first size as default
+      if (product.sizes.length > 0) {
+        sizeSelect.value = product.sizes[0];
+      }
+
+      // Image zoom effect
+      const imageContainer = document.getElementById('product-image-container');
+      const image = document.getElementById('product-image-main');
+
+      imageContainer.addEventListener('mousemove', (e) => {
+        const rect = imageContainer.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const xPercent = (x / rect.width) * 100;
+        const yPercent = (y / rect.height) * 100;
+
+        image.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+        image.style.transform = 'scale(1.5)';
+      });
+
+      imageContainer.addEventListener('mouseleave', () => {
+        image.style.transform = 'scale(1)';
+      });
+
+      // Add to cart button
+      const addToCartBtn = document.getElementById('add-to-cart-btn');
+      if (product.price > 0) {
+        addToCartBtn.addEventListener('click', () => {
+          const selectedSize = document.getElementById('size-select').value;
+          const quantity = parseInt(document.getElementById('quantity-select').value);
+
+          if (!selectedSize) {
+            alert('Please select a size');
+            return;
+          }
+
+          for (let i = 0; i < quantity; i++) {
+            cart.addItem(product, selectedSize);
+          }
+
+          const originalText = addToCartBtn.textContent;
+          addToCartBtn.textContent = '✓ Added to Cart!';
+          addToCartBtn.disabled = true;
+          setTimeout(() => {
+            addToCartBtn.textContent = originalText;
+            addToCartBtn.disabled = false;
+          }, 2000);
+        });
+      } else {
+        addToCartBtn.style.display = 'none';
+      }
+
+      // WhatsApp button
+      const whatsappBtn = document.getElementById('whatsapp-btn');
+      whatsappBtn.addEventListener('click', () => {
+        const selectedSize = document.getElementById('size-select').value;
+        const quantity = parseInt(document.getElementById('quantity-select').value);
+
+        let message = `*${product.name}*\n`;
+        if (selectedSize) message += `Size: ${selectedSize}\n`;
+        message += `Quantity: ${quantity}\n`;
+        if (product.price > 0) message += `Price: ${formatPrice(product.price * quantity)}\n\n`;
+        message += `Please confirm this order and provide delivery details.`;
+
+        const phoneNumber = '918699589709'; // Replace with actual number
+        const encodedMessage = encodeURIComponent(message);
+        window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
+      });
+
+      // Related products (show 4 random products)
+      const relatedProducts = products.filter(p => p.id !== product.id).slice(0, 4);
+      renderProducts(relatedProducts, 'related-products');
+
+      setActiveNav('products.html');
+    });
+  </script>
+</body>
+</html>
