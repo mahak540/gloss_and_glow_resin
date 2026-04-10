@@ -1261,6 +1261,7 @@ textarea {
 
 .member-title {
   color: var(--secondary-color);
+  opacity:0.87
   font-weight: 600;
   margin-bottom: var(--spacing-md);
 }
