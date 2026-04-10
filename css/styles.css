@@ -1260,7 +1260,7 @@ textarea {
 }
 
 .member-title {
-  color: var(--secondary-color);
+  color: #aa8c2c;
   font-weight: 600;
   margin-bottom: var(--spacing-md);
 }
